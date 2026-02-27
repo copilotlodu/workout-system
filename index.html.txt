@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Focus Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>Daily System</h1>
+
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button onclick="addTask()">+</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="weekly">
+        <h2>Weekly Performance</h2>
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+        <p id="percentage">0% Completed</p>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
